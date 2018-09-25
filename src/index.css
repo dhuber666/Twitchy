@@ -1,0 +1,25 @@
+body {
+  /* Background */
+
+  background: rgba(203, 113, 225, 0.66);
+}
+
+.twitchTitle {
+  /* Twitchy */
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.19em;
+
+  margin: 0;
+  width: 200px;
+  color: #ffffff;
+}
+
+.headerContainer {
+  height: 35px;
+  position: relative;
+}
