@@ -23,3 +23,109 @@ body {
   height: 35px;
   position: relative;
 }
+
+h1 {
+  /* Add your favourite Streamers */
+
+  font-family: Overlock;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.24em;
+
+  color: #ffffff;
+}
+
+.videosContainer {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  margin: 200px auto;
+  justify-content: space-evenly;
+}
+
+.newVideo {
+  /* Rectangle */
+
+  width: 350px;
+  height: 250px;
+
+  background: rgba(220, 87, 87, 0.61);
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newVideo svg {
+  /* baseline-add_circle_outline-24px */
+  position: relative;
+}
+
+.videoForm {
+  height: 80vh;
+  width: 80vw;
+  margin: 300px auto;
+}
+
+.videoForm input {
+  /* Rectangle */
+
+  width: 1018px;
+  height: 111px;
+  margin: 0 auto;
+
+  background: #ffffff;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25);
+
+  font-family: Overlock;
+  font-style: normal;
+
+  font-size: 32px;
+
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  display: block;
+  border: none;
+}
+
+.videoForm input::placeholder {
+  /* Enter in a Streamer ID */
+
+  font-family: Overlock;
+  font-style: normal;
+
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.24em;
+
+  color: rgba(0, 0, 0, 0.31);
+}
+
+.videoForm .link {
+  /* Rectangle 2 */
+
+  width: 1018px;
+  height: 111px;
+
+  background: #6d43b9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  display: block;
+  margin: 150px auto;
+
+  /* Search */
+
+  font-family: Overlock;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.24em;
+
+  color: #ffffff;
+}
